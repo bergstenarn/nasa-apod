@@ -57,7 +57,7 @@ function updateDOM() {
     footer.append(pictureDate, copyright);
     cardBody.append(cardTitle, saveText, cardText, footer);
     link.appendChild(image);
-    card.append(link, cardBody, footer);
+    card.append(link, cardBody);
     imagesContainer.appendChild(card);
   });
 }
